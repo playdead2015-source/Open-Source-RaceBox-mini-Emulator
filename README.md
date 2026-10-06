@@ -5,6 +5,10 @@ I had an ESP32-WROOM module on hand and needed to connect a BMI160 sensor instea
 Additionally, my RushFPV module supported GNSS v3 rather than v2.
 I am not very experienced in programming, so I spent a few hours using Grok and ChatGPT to modify the code to work with my specific modules; the device wouldn't function without these changes. 
 For standalone operation, I added an 18650 battery along with a TP4060 board for charging and battery protection. I also designed a 3D-printable case to house all the components and included a power switch.
+The entire wiring schematic is compatible with the original emulator.
+I am also providing the code that my build runs on.
+Additionally, I noticed that if you enter a serial number like 0005555000, the device won't work properly with the RaceBox app; you need to start with a 3—for example, 3780000123. 
+I hope you appreciate my contribution to this project.
 
 
 
