@@ -9,6 +9,8 @@ The entire wiring schematic is compatible with the original emulator.
 I am also providing the code that my build runs on.
 Additionally, I noticed that if you enter a serial number like 0005555000, the device won't work properly with the RaceBox app; you need to start with a 3—for example, 3780000123. 
 I hope you appreciate my contribution to this project.
+If you use the BMI160, you will need a library; I have included it in the file containing my modifications. Also, use the GNSS V3 version instead of the V2 version used in the original author's design.
+
 
 
 
