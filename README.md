@@ -1,3 +1,39 @@
+This is my version of the Racebox Mini emulator.
+
+I wanted to build a device to measure my course run times and track the distance covered.
+I had an ESP32-WROOM module on hand and needed to connect a BMI160 sensor instead of the one specified in the original design. 
+Additionally, my RushFPV module supported GNSS v3 rather than v2.
+I am not very experienced in programming, so I spent a few hours using Grok and ChatGPT to modify the code to work with my specific modules; the device wouldn't function without these changes. 
+For standalone operation, I added an 18650 battery along with a TP4060 board for charging and battery protection. I also designed a 3D-printable case to house all the components and included a power switch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Open Source RaceBox Mini Emulator
 > **Disclaimer:** This project is independent and open-source. It is not affiliated with, endorsed by, or officially connected to RaceBox. The name “RaceBox Mini” is used only to describe compatibility.
 
